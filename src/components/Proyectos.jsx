@@ -29,7 +29,7 @@ const Proyectos = () => {
     })
 
     return ( 
-        <a.div style={animation1} className=" ">
+        <a.div style={animation1} className="grid md:grid-cols-2 sm:grid-cols-1">
 
         {paginas.map( (data, index) => {
             return (

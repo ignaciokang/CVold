@@ -44,6 +44,9 @@ module.exports = {
         'sm': '360px',
         'md': '600px',
 
+      },
+      fontSize: {
+        'tiny': '.6rem',
       }
 
     },

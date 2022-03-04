@@ -11,7 +11,7 @@ const Experiencia = () => {
             rubro: 'Tecnología',
             desde: 'Julio 2018',
             hasta: 'Enero 2022',
-            tareas: ['Liderar un equipo de trabajo con 5 personas a cargo. Fijar los objetivos, dar seguimiento (feedback) y realizar la evaluación anual de cada integrante del equipo. Capacitar y transfir el know how al equipo con los temas del frente industrial.', 'Asegurar el cumplimiento y calidad de servicio al cliente. brindando un servicio de soporte a la empresa ARCOR del sistema JDE en temas referidos a: Gestión de Compras, Inventarios, Mantenimiento de Equipos, Costos, Manufactura, Grower y Ventas.', 'Asegurar el cumplimiento y calidad de servicio al cliente.', ' Controlar métricas e indicadores de servicio.', 'Documentar procedimientos.', 'Ayudar y gestionar la resolución de incidentes además de contribuir con la documentación correspondiente a la solución de los problemas (troubleshootings) y posibles mejoras.',],
+            tareas: ['Liderar un equipo de trabajo con 5 personas a cargo.', 'Brindar servicio de soporte a la empresa ARCOR del sistema Oracle: JDE', 'Fijar los objetivos, dar seguimiento y realizar la evaluación anual de cada integrante del equipo.', 'Temas referidos a: Gestión de Compras, Inventarios, Mantenimiento de Equipos, Costos, Manufactura, Grower y Ventas.', 'Capacitar y transferir el know how al equipo con los temas del frente industrial.', 'Asegurar el cumplimiento y calidad de servicio al cliente.', 'Manejo de SQL, Datafix Management y Sharepoint', 'Gestionar la resolución de incidentes con la documentación correspondiente.',],
             logo: '../src/images/Trabajos/globant.png',
         }
 
@@ -22,7 +22,7 @@ const Experiencia = () => {
             rubro: 'Industria Textil',
             desde: 'Enero 2014',
             hasta: 'Mayo 2018',
-            tareas: ['Control de producción'],
+            tareas: ['Control de producción, mercadería e insumos productivos.','Digitalización del sistema: Creación de hojas de cálculos para controles presupuestarios, logística, administrador de clientes.', 'Organización de logística.','Confección de Cash Flow'],
             logo: '../src/images/Trabajos/Nicona.png',
         }
 
@@ -33,7 +33,7 @@ const Experiencia = () => {
             rubro: 'Local de indumentaria',
             desde: 'Mayo 2012',
             hasta: 'Mayo 2018',
-            tareas: 'Local',
+            tareas: ['Venta de indumentaria al público', 'Manejo y cierre de caja', 'Apertura y cierre del local', 'Control de stock'],
             logo: '../src/images/Trabajos/Kurzza.png',
         }
 
@@ -48,6 +48,9 @@ const Experiencia = () => {
         const nicons = () => {
             nicon ? setNicon(false) : setNicon(true)
         }
+        const kurzz = () => {
+            kurz ? setKurz(false) : setKurz(true)
+        }
     
 
     const animation1 = useSpring({
@@ -58,7 +61,7 @@ const Experiencia = () => {
     })
 
     return ( 
-       <div className=" h-full grid grid-rows-3 py-12 px-12 relative "> 
+       <div className=" h-full grid grid-rows-3 py-12 px-12 relative items-center"> 
 
                 <a.div style={animation1}>
                  <button onClick={globs} className="w-full">
@@ -87,14 +90,14 @@ const Experiencia = () => {
                    </button>
                 </a.div>
                 <a.div style={animation1}>
-                 <button onClick={globs} className="w-full">
-                     { glob ? (
+                 <button onClick={kurzz} className="w-full">
+                     { kurz ? (
                          <ExperienciaTarjeta
-                         trabajo= {Globant}
+                         trabajo= {Kurzza}
                          />
                          ):(
                             <ExperienciaTarjetaBack
-                            trabajo= {Globant}
+                            trabajo= {Kurzza}
                             />)
                             }
                    </button>

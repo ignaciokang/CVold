@@ -21,19 +21,21 @@ const Resumen = () => {
 
   return (
     <div className="h-full bg-gray-200">
-        <a.div style={animation1} className="px-12 py-8 bg-gray-300 h-1/4 table">
-          <p className="align-middle table-cell">
+        <a.div style={animation1} className="h-1/4 table relative md:mx-12 lg:mx-6 xl:mx-6">
+
+          <p className="align-middle table-cell bg-white rounded-xl px-12 py-8 mt-8 top-6 relative md:text-md sm:text-tiny lg:text-md xl:text-md">
           Soy un desarrollador Front End en constante crecimiento. Apasionado
           por crear y descubrir, veo la programación como vía de expresión.
           Aprendo rápido y puedo integrarme cómodamente a cualquier equipo. Me
           caraterizo por ser práctico, prolijo, comprometido, creativo e
           innovador.
           </p>
+
         </a.div>
 
       <a.div
         style={animation1}
-        className="grid grid-cols-4 text-black justify-items-center content-evenly  h-3/4 "
+        className="grid grid-cols-4 text-black justify-items-center content-evenly h-3/4 "
       >
         <div className="bg-white h-32 w-32 text-center rounded-xl grid grid-cols-1 items-center">
           <SiReact className="text-7xl mx-auto bg-cyan-400 p-2 rounded-xl text-white" />

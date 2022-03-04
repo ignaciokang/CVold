@@ -15,7 +15,7 @@ const BarraCuadro = ({pagina, setPagina}) => {
 
     return (
 
-        <nav className="grid grid-cols-4 text-center h-full content-center w-2/3 sm:text-[8px] md:text-lg">
+        <nav className="grid grid-cols-4 text-center h-full content-center w-2/3 sm:text-[8px] md:text-md lg:text-lg">
 
 
             <button
