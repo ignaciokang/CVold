@@ -14,7 +14,7 @@ const Datos = () => {
 
   return (
 
-    <div className="grid grid-cols-1 h-full justify-around items-center xl:bg-red-800 lg:bg-blue-600 md:bg-red-400 sm:bg-green-400 xs:bg-blue-400">
+    <div className="grid grid-cols-1 h-full justify-around items-center">
       <img
         src={FotoPerfil}
         alt="avatar"
@@ -49,7 +49,7 @@ const Datos = () => {
         <p className="my-2 "> ignaciokang10@gmail.com </p>
         <p className="my-2"> 1136976191 </p>
       </div>
-      <div className="xl:text-xl md:text-2xl sm:text-md justify-between bg-slate-500">
+      <div className="xl:text-xl md:text-2xl sm:text-md justify-between">
       <button
         className="w-8/12 px-4 py-2 mb-6 text-white rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
         onClick={() => window.open("mailto:ignaciokang10@gmail.com")}

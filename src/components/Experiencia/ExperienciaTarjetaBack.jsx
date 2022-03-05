@@ -4,9 +4,9 @@ import {AiOutlineCloseCircle} from 'react-icons/ai';
 
 const ExperienciaTarjetaBack = ({ trabajo }) => {
   return (
-    <div className="bg-gray-100 w-full h-full  absolute top-0 left-0 px-12 pt-12">
+    <div className="bg-gray-100 w-full h-full  absolute top-0 left-0 md:px-12 md:pt-12 sm:px-4 sm:py-4">
       <div className='flex items-center'>
-      <img src={trabajo.logo} alt="Logo empresa" className="h-24 bg-white rounded-xl mr-24 p-2" />
+      <img src={trabajo.logo} alt="Logo empresa" className="h-24 bg-white rounded-xl md:mr-12 sm:mr-4 p-2" />
       <div className='text-left w-full'>
       <p className='text-xl'>{trabajo.puesto}</p>
       <div className='flex items-center space-x-2 text-md'>
