@@ -22,7 +22,7 @@ const Datos = () => {
       />
       <div>
       <h3 className=" sm:text-2xl md:text-5xl lg:text-2xl xl:text-3xl">
-       Ignacio Kang
+       Pepito Juarez
       </h3>
       <p className=" mt-2 sm:text-md md:text-3xl lg:text-sm xl:text-lg">
         Front End Developer
