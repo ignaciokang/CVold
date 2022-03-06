@@ -56,7 +56,7 @@ const Educacion = () => {
     ]
     return ( 
 
-    <div className='grid lg:grid-cols-2 md:gap-x-3 md:gap-y-3 sm:grid-cols-1 h-full justify-items-center place-items-center overflow-y-auto'>
+    <div className='grid lg:grid-cols-2 md:gap-x-3 md:gap-y-3 sm:grid-cols-1 h-full justify-items-center place-items-center overflow-y-auto lg:overflow-hidden'>
         {Edu.map( (data, index) => {
 
             return(
