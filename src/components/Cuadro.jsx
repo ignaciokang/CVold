@@ -13,13 +13,13 @@ const Cuadro = () => {
 
   return (
     <div className="h-full">
-      <div className="h-1/6">
+      <div className="lg:h-1/6 sm:h-[10%]">
         <BarraCuadro
           pagina = {pagina}
           setPagina = {setPagina}
         />
       </div>
-      <div className="h-5/6 bg-[#F1F2F2]">
+      <div className="lg:h-5/6 sm:h-[90%] bg-[#F1F2F2]">
         
        {pagina === 'Resumen' ? (<Resumen/>) : ''}
        {pagina === 'Educacion' ? (<Educacion/>) : ''}

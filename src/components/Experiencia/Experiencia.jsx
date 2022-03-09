@@ -61,7 +61,7 @@ const Experiencia = () => {
     })
 
     return ( 
-       <div className=" h-full grid grid-rows-3 md:py-12 md:px-12 sm:px-2 relative items-center"> 
+       <div className=" h-full grid grid-rows-3 md:py-12 md:px-12 sm:px-4 relative items-center"> 
 
                 <a.div style={animation1}>
                  <button onClick={globs} className="w-full">

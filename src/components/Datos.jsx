@@ -18,7 +18,7 @@ const Datos = () => {
       <img
         src={FotoPerfil}
         alt="avatar"
-        className=" mx-auto rounded-full lg:w-2/3 md:w-2/3 sm:w-2/5 shadow-md shadow-gray-400 "
+        className=" mx-auto rounded-full lg:w-2/3 sm:w-2/5 shadow-md shadow-gray-400 "
       />
       <div>
       <h3 className=" sm:text-2xl md:text-5xl lg:text-2xl xl:text-3xl">
@@ -36,7 +36,7 @@ const Datos = () => {
         <a href="https://www.linkedin.com/in/ignaciokang/">
           <AiFillLinkedin className="w-8 h-8 md:w-12 md:h-12 lg:w-8 lg:h-8 cursor-pointer hover:scale-110 hover:text-blue-500" />
         </a>
-        <a href="https://www.instagram.com/nanokang">
+        <a href="https://github.com/ignaciokang/CV">
           <AiFillGithub className="w-8 h-8 md:w-12 md:h-12 lg:w-8 lg:h-8 cursor-pointer hover:scale-110 hover:text-purple-500" />{" "}
         </a>
       </div>

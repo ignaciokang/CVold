@@ -3,7 +3,7 @@ import {BsCalendar2Week, BsDownload, BsBarChartLine} from 'react-icons/bs'
 const EducacionTarjeta = ({data}) => {
     return ( 
     
-    <div className="h-48 w-80 sm:my-2 md:my-0 rounded-xl shadow-lg p-4 grid grid-rows-2 bg-white">
+    <div className="h-48 md:w-80 sm:w-[250px] sm:my-2 md:my-0 rounded-xl shadow-lg p-4 grid grid-rows-2 bg-white">
     <div className="items-center grid grid-cols-4 border-b border-gray-200">
     <img src= {data.img} alt="Institucion" className="h-12 mx-auto col-span-1"/>
     <div className=" col-span-3 px-3">

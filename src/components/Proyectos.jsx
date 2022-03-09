@@ -6,14 +6,14 @@ const Proyectos = () => {
         {
         nombre: 'LOL Trainer',
         web: 'http://ww',
-        miniatura : '../src/images/Proyectos/Lolazo.png',
+        miniatura : './src/images/Proyectos/Lolazo.png',
         descripcion: 'Proyecto personal dedicado al análisis de datos de League of Legends.',
         tecnologias: ['react', 'tailwindcss', 'axios', 'react-router', 'react-spring'],
     },
     {
         nombre: 'Inti Valley',
         web: 'http://ww',
-        miniatura : '../src/images/Proyectos/IntiValley.png',
+        miniatura : './src/images/Proyectos/IntiValley.png',
         descripcion: 'Página web para la marca de vinos Inti Valley.',
         tecnologias: ['react', 'tailwindcss', 'axios', 'react-router', 'react-spring'],  
     },
