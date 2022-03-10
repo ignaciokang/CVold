@@ -59,8 +59,8 @@ const Datos = () => {
       <br></br>
       <a
         className="w-8/12 px-4 py-2 cursor-pointer underline underline-offset-4 decoration-2 hover:text-green-600  "
-        href="https://github.com/ignaciokang/CV/raw/main/src/documents/CV-Ignacio-Kang-SPA.png"
-        download="CV-Ignacio-Kang-SPA.png"
+        href="https://github.com/ignaciokang/CV/raw/main/src/documents/CV%20-%20Ignacio%20Kang.pdf"
+        download="CV-Ignacio-Kang-SPA.pdf"
         >
        Descargar CV
       </a>
