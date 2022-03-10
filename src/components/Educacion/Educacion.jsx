@@ -1,5 +1,6 @@
 import EducacionTarjeta from './EducacionTarjeta'
 import { useSpring,a } from 'react-spring'
+import imagenes from "../../constants/images"
 
 
 const Educacion = () => {
@@ -13,7 +14,7 @@ const Educacion = () => {
 
     const Edu = [
         {
-            img: '../src/images/Educacion/UTN.png',
+            img: imagenes.utn,
             carrera: 'FullStack Developer',
             institucion: 'UTN - Centro e-Learning',
             progreso: 100,
@@ -24,7 +25,7 @@ const Educacion = () => {
             download: "FullStackDeveloper.pdf",
         },
         {
-            img: '../src/images/Educacion/Udemy.png',
+            img: imagenes.udemy,
             carrera: 'React: Hooks, Redux, Context,  MERN',
             institucion: 'Udemy',
             progreso: 50,
@@ -35,7 +36,7 @@ const Educacion = () => {
             download: "React-GuiaCompleta.pdf",
         },
         {
-            img: '../src/images/Educacion/UTN.png',
+            img: imagenes.utn,
             carrera: 'Ingeniería Industrial',
             institucion: 'UTN - FRBA',
             progreso: 60,
@@ -44,7 +45,7 @@ const Educacion = () => {
             descargar: '',
         },
         {
-            img: '../src/images/Educacion/Acosta.png',
+            img: imagenes.acosta,
             carrera: 'Bachiller (Orientación Físico-Matemática)',
             institucion: 'ENS Nº2 Mariano Acosta',
             progreso: 100,

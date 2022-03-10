@@ -2,6 +2,7 @@ import ExperienciaTarjeta from "./ExperienciaTarjeta";
 import ExperienciaTarjetaBack from "./ExperienciaTarjetaBack";
 import { useSpring, a } from "react-spring";
 import { useState } from "react";
+import imagenes from "../../constants/images"
 
 const Experiencia = () => {
 
@@ -12,7 +13,7 @@ const Experiencia = () => {
             desde: 'Julio 2018',
             hasta: 'Enero 2022',
             tareas: ['Liderar un equipo de trabajo con 5 personas a cargo.', 'Brindar servicio de soporte a la empresa ARCOR del sistema Oracle: JDE', 'Fijar los objetivos, dar seguimiento y realizar la evaluación anual de cada integrante del equipo.', 'Temas referidos a: Gestión de Compras, Inventarios, Mantenimiento de Equipos, Costos, Manufactura, Grower y Ventas.', 'Capacitar y transferir el know how al equipo con los temas del frente industrial.', 'Asegurar el cumplimiento y calidad de servicio al cliente.', 'Manejo de SQL, Datafix Management y Sharepoint', 'Gestionar la resolución de incidentes con la documentación correspondiente.',],
-            logo: '../src/images/Trabajos/globant.png',
+            logo: imagenes.globant,
         }
 
         const Nicona =
@@ -23,7 +24,7 @@ const Experiencia = () => {
             desde: 'Enero 2014',
             hasta: 'Mayo 2018',
             tareas: ['Control de producción, mercadería e insumos productivos.','Digitalización del sistema: Creación de hojas de cálculos para controles presupuestarios, logística, administrador de clientes.', 'Organización de logística.','Confección de Cash Flow'],
-            logo: '../src/images/Trabajos/Nicona.png',
+            logo: imagenes.nicona,
         }
 
         const Kurzza =
@@ -34,7 +35,7 @@ const Experiencia = () => {
             desde: 'Mayo 2012',
             hasta: 'Mayo 2018',
             tareas: ['Venta de indumentaria al público', 'Manejo y cierre de caja', 'Apertura y cierre del local', 'Control de stock'],
-            logo: '../src/images/Trabajos/Kurzza.png',
+            logo: imagenes.kurzza,
         }
 
 

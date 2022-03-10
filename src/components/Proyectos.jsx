@@ -1,4 +1,6 @@
 import { useSpring, a } from "react-spring";
+import imagenes from "../constants/images";
+
 
 const Proyectos = () => {
 
@@ -6,14 +8,14 @@ const Proyectos = () => {
         {
         nombre: 'LOL Trainer',
         web: 'http://ww',
-        miniatura : './src/images/Proyectos/Lolazo.png',
+        miniatura : imagenes.lolazo,
         descripcion: 'Proyecto personal dedicado al análisis de datos de League of Legends.',
         tecnologias: ['react', 'tailwindcss', 'axios', 'react-router', 'react-spring'],
     },
     {
         nombre: 'Inti Valley',
         web: 'http://ww',
-        miniatura : './src/images/Proyectos/IntiValley.png',
+        miniatura : imagenes.inti,
         descripcion: 'Página web para la marca de vinos Inti Valley.',
         tecnologias: ['react', 'tailwindcss', 'axios', 'react-router', 'react-spring'],  
     },
