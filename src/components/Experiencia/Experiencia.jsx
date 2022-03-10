@@ -33,7 +33,7 @@ const Experiencia = () => {
             empresa: 'Kurzza',
             rubro: 'Local de indumentaria',
             desde: 'Mayo 2012',
-            hasta: 'Mayo 2018',
+            hasta: 'Enero 2014',
             tareas: ['Venta de indumentaria al público', 'Manejo y cierre de caja', 'Apertura y cierre del local', 'Control de stock'],
             logo: imagenes.kurzza,
         }
