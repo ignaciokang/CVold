@@ -21,7 +21,7 @@ const Educacion = () => {
             estado: 'Completado',
             fecha: 'Mar 2021 - Sep 2021',
             descargar: 'Descargar certificado',
-            href: "/src/documents/FullStackDeveloper.pdf",
+            href: "https://github.com/ignaciokang/CV/raw/main/src/documents/FullStackDeveloper.pdf",
             download: "FullStackDeveloper.pdf",
         },
         {
@@ -32,7 +32,7 @@ const Educacion = () => {
             estado: 'Completado',
             fecha: 'Ene 2022 - Feb 2022',
             descargar: 'Descargar certificado',
-            href: "/src/documents/React-GuiaCompleta.pdf",
+            href: "https://github.com/ignaciokang/CV/raw/main/src/documents/React-GuiaCompleta.pdf",
             download: "React-GuiaCompleta.pdf",
         },
         {

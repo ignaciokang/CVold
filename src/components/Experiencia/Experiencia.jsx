@@ -34,7 +34,7 @@ const Experiencia = () => {
             rubro: 'Local de indumentaria',
             desde: 'Mayo 2012',
             hasta: 'Enero 2014',
-            tareas: ['Venta de indumentaria al público', 'Manejo y cierre de caja', 'Apertura y cierre del local', 'Control de stock'],
+            tareas: ['Liderar un equipo de trabajo con 2 personas a cargo.','Venta de indumentaria al público.', 'Manejo y cierre de caja.', 'Apertura y cierre del local.', 'Control de stock.'],
             logo: imagenes.kurzza,
         }
 
